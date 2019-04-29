@@ -126,6 +126,7 @@ def organize_schools(col)
     i.each do |j|
       j.each do |k , v|
         puts "#{k} , #{v}"
+      end
     end
   end
   res = []
