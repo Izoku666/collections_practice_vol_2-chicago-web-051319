@@ -129,8 +129,10 @@ def organize_schools(col)
       puts v_v
       res[v_v] = []
     end
-    
-    v.each do|v_k , v_v|
+  end
+  
+  col.each do|k , v|
+    v.each do |v_k , v_v|
       res[v_v] << k
     end
   end
