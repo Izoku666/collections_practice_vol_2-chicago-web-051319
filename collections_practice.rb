@@ -122,11 +122,12 @@ end
 def organize_schools(col)
   puts " Collection: #{col}"
   
-  res = []
+  res = {}
   
   col.each do |k , v|
     v.each do |v_k , v_v|
       puts v_v
+      res[v_v]
 
     
     end
