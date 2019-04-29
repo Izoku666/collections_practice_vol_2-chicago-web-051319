@@ -47,7 +47,7 @@ end
 
 def count_elements(col)
   arr = []
-  puts col
+#  puts col
   
   col.each do |i|
     temp = {
