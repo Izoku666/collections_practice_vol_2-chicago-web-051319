@@ -82,10 +82,10 @@ end
 
 
 def merge_data(col_a , col_b)
-  puts col_a  # THESE ARE ARRAYS OF HASHES
-  puts " ------------------ "
-  puts col_b
-  puts "----------------------------"
+ # puts col_a  # THESE ARE ARRAYS OF HASHES
+#  puts " ------------------ "
+#  puts col_b
+#  puts "----------------------------"
   
   res = col_a
   col_b.each do |i|
@@ -112,7 +112,7 @@ end
 
 
 def find_cool(col)
-  puts col
+  #puts col
   res = []
   col.each do |i|
     i.each do |k , v|
@@ -129,12 +129,6 @@ def organize_schools(col)
   puts col
   
   res = []
-  col.each do |i|
-    puts "this is: #{i}"
-    i.each do |k|
-      puts "#{k} , #{i[k]}"
-    end
-  end
   
   return res
 end
