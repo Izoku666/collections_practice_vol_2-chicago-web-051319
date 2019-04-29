@@ -131,7 +131,7 @@ def organize_schools(col)
     end
     
     v.each do|v_k , v_v|
-      res[v_v] << col[k][v_k]
+      res[v_v] << col[k]
     end
   end
 
