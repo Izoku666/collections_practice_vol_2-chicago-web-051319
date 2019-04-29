@@ -120,7 +120,7 @@ def find_cool(col)
 end
 
 def organize_schools(col)
-  puts " Collection: #{col.to_s}"
+  puts " Collection: #{col}"
   
   res = []
   
