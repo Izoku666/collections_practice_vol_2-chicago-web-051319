@@ -122,6 +122,7 @@ end
 def organize_schools(col)
   puts col
   
+  
   res = []
   
   return res
