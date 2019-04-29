@@ -130,7 +130,7 @@ def organize_schools(col)
   
   res = []
   col.each do |i|
-    puts "#{i} is: "
+    puts "this is: #{i}"
     i.each do |k , v|
       puts k
     end
