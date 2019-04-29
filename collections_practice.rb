@@ -132,5 +132,5 @@ def organize_schools(col)
   end
 
   col = res
-  return 
+  return res
 end
