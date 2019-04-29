@@ -83,10 +83,6 @@ end
 
 def merge_data(col_a , col_b)
  # puts col_a  # THESE ARE ARRAYS OF HASHES
-#  puts " ------------------ "
-#  puts col_b
-#  puts "----------------------------"
-  
   res = col_a
   col_b.each do |i|
     res.each do |j|
