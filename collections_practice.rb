@@ -47,8 +47,7 @@ end
 
 def count_elements(col)
   arr = []
-#  puts col
-  
+
   col.each do |i|
     temp = {
       :name => i[:name],
