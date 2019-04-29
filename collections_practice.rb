@@ -122,8 +122,12 @@ end
 def organize_schools(col)
   puts col
   
-  
+  col.each do |i|
+    i.each do |j|
+      puts j
+  end
   res = []
   
-  return res
+  col = res
+  return col
 end
