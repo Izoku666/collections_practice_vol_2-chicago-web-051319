@@ -120,15 +120,18 @@ def find_cool(col)
 end
 
 def organize_schools(col)
-  puts col
+  puts " Collection: #{col}"
+  
+  res = []
   
   col.each do |i|
     i.each do |j|
       puts "this is j: #{j}"
+      if j.class == Hash && !res.include?(j[:location])
+      
     end
   end
-  res = []
-  
+
   col = res
   return col
 end
