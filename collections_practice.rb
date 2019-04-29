@@ -127,8 +127,8 @@ def organize_schools(col)
   col.each do |i|
     i.each do |j|
       puts "this is j: #{j}"
-      if j.class == Hash && !res.include?(j[:location])
-      
+      #if j.class == Hash && !res.include?(j[:location])
+    
     end
   end
 
