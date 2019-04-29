@@ -124,10 +124,10 @@ def organize_schools(col)
   
   res = []
   
-  col.each do |i|
-    i.each do |j|
-      puts "this is j: #{j}"
-      #if j.class == Hash && !res.include?(j[:location])
+  col.each do |k , v|
+    v.each do |v_k , v_v|
+      puts v_v
+
     
     end
   end
