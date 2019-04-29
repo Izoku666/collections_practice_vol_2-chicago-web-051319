@@ -132,7 +132,7 @@ def organize_schools(col)
   col.each do |i|
     puts "this is: #{i}"
     i.each do |k , v|
-      temp = { v[:location] : k}
+      temp = { v[:location] => k}
       res.push(temp)
     end
   end
