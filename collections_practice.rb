@@ -123,8 +123,9 @@ def organize_schools(col)
   puts col
   
   col.each do |i|
-    i.each do |j|
+    i.each do |j , v|
       puts j
+      puts "this is v : #{v}"
     end
   end
   res = []
